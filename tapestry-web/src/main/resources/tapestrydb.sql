@@ -2,7 +2,8 @@
 SQLyog Ultimate v9.50 
 MySQL - 5.0.51b-community-nt : Database - tapestrydb
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -39,7 +40,7 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert  into `user`(`id`,`firstname`,`lastname`,`email`,`passwd`,`registereddate`,`companyname`,`country`,`city`,`street`,`address`,`phone`,`skypeId`) values (1,'Admin','Adminsky','admin@gmail.com','e10adc3949ba59abbe56e057f20f883e','2016-03-19 14:41:31','CarWash',NULL,NULL,NULL,'15 Sayat-Nova Ave, Yerevan, Armenia',NULL,NULL),(2,'Aram','Manukyan','armen@gmail.com','e10adc3949ba59abbe56e057f20f883e','2016-03-19 14:41:31','Lot of',NULL,NULL,NULL,NULL,NULL,NULL),(3,'Armen','Arzumanyan','armen.arzumanyan@gmail.com','0b4e7a0e5fe84ad35fb5f95b9ceeac79','2016-04-14 14:22:20','LuxSoft',NULL,NULL,NULL,NULL,NULL,NULL);
+insert  into `user`(`id`,`firstname`,`lastname`,`email`,`passwd`,`registereddate`,`companyname`,`country`,`city`,`street`,`address`,`phone`,`skypeId`) values (1,'Admin','Adminsky','admin@gmail.com','e10adc3949ba59abbe56e057f20f883e','2016-03-19 14:41:31','CarWash',NULL,NULL,NULL,'15 Sayat-Nova Ave, Yerevan, Armenia',NULL,NULL),(2,'Aram','Manukyan','armen@gmail.com','e10adc3949ba59abbe56e057f20f883e','2016-03-19 14:41:31','Lot of',NULL,NULL,NULL,NULL,NULL,NULL),(3,'Armen','Arzumanyan','armenaaaaa@gmail.com','0b4e7a0e5fe84ad35fb5f95b9ceeac79','2016-04-14 14:22:20','LuxSoft',NULL,NULL,NULL,NULL,NULL,NULL);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
